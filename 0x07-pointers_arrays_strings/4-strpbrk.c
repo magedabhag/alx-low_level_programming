@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strpbrk - copies memory area
+ * _strpbrk - copies memory area
  * @s: memory area
  * @accept: sourse
  *
@@ -17,7 +17,7 @@ char *_strpbrk(char *s, char *accept)
 	while (s[itr] != '\0')
 	{
 		jtr = 0;
-		while (jtr = 0; accept[jtr] != '\0')
+		while (accept[jtr] != '\0')
 		{
 			if (accept[jtr] == s[itr])
 			{
